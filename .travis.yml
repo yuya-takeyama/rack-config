@@ -5,10 +5,6 @@ rvm:
 
 gemfile:
   - gemfiles/rack0_4.gemfile
-  - gemfiles/rack0_5.gemfile
-  - gemfiles/rack0_6.gemfile
-  - gemfiles/rack0_7.gemfile
-  - gemfiles/rack0_8.gemfile
   - gemfiles/rack0_9.gemfile
   - gemfiles/rack1_0.gemfile
   - gemfiles/rack1_1.gemfile
