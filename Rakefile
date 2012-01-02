@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'bundler/setup'
+Bundler.setup(:default, :development)
+
 task :default => :test
 
 desc 'Run the test'
