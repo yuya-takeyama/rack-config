@@ -1,0 +1,17 @@
+rvm:
+  - 1.8.7
+  - 1.9.2
+  - 1.9.3
+
+gemfile:
+  - gemfiles/rack0_4.gemfile
+  - gemfiles/rack0_5.gemfile
+  - gemfiles/rack0_6.gemfile
+  - gemfiles/rack0_7.gemfile
+  - gemfiles/rack0_8.gemfile
+  - gemfiles/rack0_9.gemfile
+  - gemfiles/rack1_0.gemfile
+  - gemfiles/rack1_1.gemfile
+  - gemfiles/rack1_2.gemfile
+  - gemfiles/rack1_3.gemfile
+  - gemfiles/rack1_4.gemfile
