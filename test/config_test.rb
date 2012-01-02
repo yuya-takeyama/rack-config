@@ -1,7 +1,9 @@
 $:.unshift File.dirname(__FILE__) + '/../lib'
 require 'rubygems'
+require 'bundler/setup'
+Bundler.setup(:default)
 require 'rack'
-require 'config'
+require 'rack/config'
 require 'test/unit'
 class RackConfigTest < Test::Unit::TestCase
   def test_should_accept_block_that_modifies_environment
