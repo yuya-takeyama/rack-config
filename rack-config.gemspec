@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
   s.test_files        = ["test/config_test.rb"]
   s.rubyforge_project = "rack-config"
   s.rubygems_version  = "1.1.1"
-  s.add_dependency 'rack', '~> 0.4'
+  s.add_dependency 'rack', '>= 0.4.0', '< 1.5.0'
 end
